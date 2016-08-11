@@ -1,0 +1,48 @@
+{
+  "name": "ksjogo/typo3-platformsh-base",
+  "license": "MIT",
+  "type": "project",
+  "description": "Platformsh base for TYPO3 CMS",
+  "authors": [
+    {
+      "name": "Johannes Goslar",
+      "email": "johannes.goslar@kronberger-spiele.de"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://composer.typo3.org/"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ksjogo/TYPO3.cms.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/ksjogo/typo3_console.git"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0",
+    "typo3/cms": "dev-master",
+    "helhum/typo3-console": "dev-master"
+  },
+  "autoload": {
+  },
+  "autoload-dev": {
+  },
+  "require-dev": {
+  },
+  "scripts": {
+    "post-install-cmd": [
+    ],
+    "post-update-cmd": [
+    ]
+  },
+  "extra": {
+    "helhum/typo3-console": {
+      "install-binary": false
+    }
+  }
+}
