@@ -6,6 +6,10 @@ Installation:
 * Go to http://platform.sh and create a new project, select *import your existing code* when asked
 * Copy the git remote config from the follow-up form and run it - looks like
   * `git remote add platform XYZ@git.eu.platform.sh:XYZ.git`
+* Add your SSH key if necessary
+  * https://accounts.platform.sh/user/
+  * `cat ~/.ssh/id_rsa.pub`
+  * *Account Settings* *SSH Keys*
 * `git push -u platform master`
 * Click *finish* in the platformsh dialog
 * 🐢+☕️
